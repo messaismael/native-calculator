@@ -20,10 +20,9 @@ export default function Operation(props) {
 
 const styles = StyleSheet.create( {
     operation: {
-        height: h-9.2,
-        backgroundColor: "red",
+        height: h-3,
+        backgroundColor: "#D3D3D3",
         alignItems: 'center',
-        justifyContent: 'center',
-        margin:3
+        justifyContent: 'center'
     }
 })

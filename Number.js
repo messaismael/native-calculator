@@ -11,7 +11,7 @@ export default function InputNumber(props) {
             renderItem={( { item } ) => {
                 return (   
                     <TouchableOpacity onPress={()=>props.press(item)} style={(item === '=')? styles.equal:styles.button}>
-                        <Text style={{fontSize:25}}>{item}</Text>
+                        <Text style={{fontSize:50, color:'white'}}>{item}</Text>
                     </TouchableOpacity>
                 )
                 }
@@ -26,19 +26,17 @@ const styles = StyleSheet.create({
     button: {
         flex:1,
         padding:5,
-        margin: 1,
-        height: h -7,
-        backgroundColor: "green",
+        height: h-4,
+        backgroundColor: "#696969",
         alignItems: 'center',
         justifyContent: 'center',        
     },
     equal: {
         flex:1,
         padding:5,
-        margin: 1,
-        height: h-7,
+        height: h-4,
         alignItems: 'center',
         justifyContent:'center',
-        backgroundColor:'#61a5fb'
+        backgroundColor:'#2F4F4F'
     }
 });
