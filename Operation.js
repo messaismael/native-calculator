@@ -10,7 +10,7 @@ export default function Operation(props) {
             renderItem={( { item } ) => {
                 return (
                      <TouchableOpacity style={styles.operation} onPress={()=>props.operate(item)}>
-                        <Text style={{fontSize:25}}>{item}</Text>
+                        <Text style={{fontSize:40}}>{item}</Text>
                     </TouchableOpacity>)
             }}
             numColumns={1}

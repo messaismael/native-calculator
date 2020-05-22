@@ -17,7 +17,7 @@ $ npm start
 
 ### Overview
 
-> ![overview](calculator.png)
+> ![overview](Calculator.png)
 
 ### Author
 > [Ismael Dassi](https://github.com/messaismael)
