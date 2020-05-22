@@ -1,12 +1,12 @@
 ## Native Calcultor
 
-### stack
+### Stack
 
 > React-Native
 
 ### Intall Native Calculator
 ```
-$ git clone https://github.com/messaismael/React-native-calculator-.git
+$ git clone https://github.com/messaismael/native-calculator.git
 $ cd React-native-calculator
 $ npm install
 ```
@@ -15,9 +15,9 @@ $ npm install
 $ npm start
 ```
 
-### overview
+### Overview
 
 > ![overview](calculator.png)
 
-### author
-> [Ismael Dassi](https://github.com/messaismael?tab=repositories)
+### Author
+> [Ismael Dassi](https://github.com/messaismael)
